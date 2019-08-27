@@ -1,3 +1,4 @@
+// Credit to https://github.com/leemark/better-simple-slideshow for the slideshow code
 var makeBSS = function (el, options) {
     var $slideshows = document.querySelectorAll(el), // a collection of all of the slideshow
         $slideshow = {},
