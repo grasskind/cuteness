@@ -17,5 +17,5 @@
 </div>
 <script type="text/javascript" src="better-simple-slideshow.js"></script>
 <script>
-  makeBSS('.bss-slides', opts);
+  makeBSS('.bss-slides');
 </script>
