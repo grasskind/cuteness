@@ -5,11 +5,18 @@
 
 <div class="bss-slides">
     <figure>
-        <img src="bunny.jpg" width="100%" />
+        <img src="1.jpg" width="100%" />
+        <figcaption>Caption goes here</figcaption> 
+    </figure>
+    <figure>
+        <img src="2.jpg" width="100%" />
+        <figcaption>Caption goes here</figcaption> 
+    </figure>
+    <figure>
+        <img src="3.jpg" width="100%" />
         <figcaption>Caption goes here</figcaption> 
     </figure>
 
-    <!-- more figures here as needed -->
 </div>
 
 <script type="text/javascript" src="better-simple-slideshow.js"></script>
