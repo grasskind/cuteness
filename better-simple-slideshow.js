@@ -10,7 +10,7 @@ var makeBSS = function (el, options) {
                 this.opts = {
                     selector: (typeof options.selector === "undefined") ? "figure" : options.selector,
                     auto: (typeof options.auto === "undefined") ? true : options.auto,
-                    speed: (typeof options.auto.speed === "undefined") ? 1500 : options.auto.speed,
+                    speed: (typeof options.auto.speed === "undefined") ? 3000 : options.auto.speed,
                     pauseOnHover: (typeof options.auto.pauseOnHover === "undefined") ? false : options.auto.pauseOnHover,
                     fullScreen: (typeof options.fullScreen === "undefined") ? true : options.fullScreen,
                     swipe: (typeof options.swipe === "undefined") ? false : options.swipe
