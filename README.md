@@ -32,5 +32,5 @@
             // support swiping on touch devices? accepts boolean, requires hammer.js
             swipe : true 
         };
-  makeBSS('.bss-slides', opts) 
+  makeBSS('.bss-slides', opts);
 </script>
