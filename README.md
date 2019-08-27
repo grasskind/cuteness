@@ -30,7 +30,7 @@
             // show fullscreen toggle? accepts boolean
             fullScreen : false, 
             // support swiping on touch devices? accepts boolean, requires hammer.js
-            swipe : true 
+            swipe : false
         };
   makeBSS('.bss-slides', opts);
 </script>
