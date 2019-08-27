@@ -15,4 +15,5 @@
     </figure>
 
 </div>
+<script type="text/javascript" src="better-simple-slideshow.js"></script>
 <script> makeBSS('.bss-slides') </script>
