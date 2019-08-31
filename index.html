@@ -1,0 +1,17 @@
+---
+title: Home
+layout: my_default
+num_pictures: 50
+---
+
+<div class="bss-slides">
+    {% for i in (1..page.num_pictures) %} 
+        <figure>
+            <img src="pictures/{{ i }}.jpg" width="100%" />
+        </figure>
+    {% endfor %}
+</div>
+<script type="text/javascript" src="js/better-simple-slideshow.js"></script>
+<script>
+    makeBSS('.bss-slides');
+</script>

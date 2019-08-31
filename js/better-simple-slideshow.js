@@ -6,11 +6,11 @@ var makeBSS = function (el, options) {
             init: function (el, options) {
 
                 options = options || {}; // if options object not passed in, then set to empty object 
-                options.auto = options.auto || true; // if options.auto object not passed in, then set to true
+                options.auto = options.auto || false; // if options.auto object not passed in, then set to true
                 this.opts = {
                     selector: (typeof options.selector === "undefined") ? "figure" : options.selector,
                     auto: (typeof options.auto === "undefined") ? true : options.auto,
-                    speed: (typeof options.auto.speed === "undefined") ? 3000 : options.auto.speed,
+                    speed: (typeof options.auto.speed === "undefined") ? 1000 : options.auto.speed,
                     pauseOnHover: (typeof options.auto.pauseOnHover === "undefined") ? false : options.auto.pauseOnHover,
                     fullScreen: (typeof options.fullScreen === "undefined") ? true : options.fullScreen,
                     swipe: (typeof options.swipe === "undefined") ? false : options.swipe
